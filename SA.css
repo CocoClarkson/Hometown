@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
+
+body {
+    margin: 0 auto;
+    padding: 0;
+}
+
+#hero-card {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 0 auto;
+    height: 450px;
+    background-image: url(Desktop/SAHERO.jpg);
+    background-size: cover;
+    background-position: center center;
+    color: rgb(245, 245, 245);
+    border-radius: 5px;
+}
+
+.sa-title {
+    margin: 0 auto;
+    margin-bottom: 45px;
+    padding: 20px 0px;
+    width: 60%;
+    font-size: 45px;
+    font-family: 'Gloock', serif;
+    text-shadow: 5px 5px 5px black;
+    border: rgb(245, 245, 245) solid 5px;
+}
+
+.sa-quote {
+    margin: 0 auto;
+    width: 75%;
+    font-size: 20px;
+    font-family: 'Gloock', serif;
+    letter-spacing: 2px;
+    text-shadow: 5px 5px 5px black;
+}
+
+.attraction-card {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    font-family: 'Gloock', serif;
+    text-shadow: black 1px 0 1px;
+    background-color: rgb(245, 245, 245);
+    margin: 10px;
+}
+
+.alamo-card:hover {
+    filter: brightness(85%);
+    transform: translate(0, -5px);
+}
+
+.river-card:hover {
+    filter: brightness(85%);
+    transform: translate(0, -5px);
+}
+
+.pearl-card:hover {
+    filter: brightness(85%);
+    transform: translate(0, -5px);
+}
+
+.alamo-card {
+    margin: 10px;
+    width: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-center;
+    align-items: center;
+    background-image: url(Desktop/alamo.png);
+    background-size: cover;
+    background-position: center center;
+    border-radius: 10px;
+
+}
+
+
+
+
+.river-card {
+    margin: 10px;
+    width: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(Desktop/riverwalk-3.jpg);
+    background-size: cover;
+    background-position: center center;
+    border-radius: 10px;
+
+
+
+}
+
+.pearl-card {
+    margin: 10px;
+    width: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(Desktop/pearla.jpeg);
+    background-size: cover;
+    background-position: center center;
+    border-radius: 10px;
+
+}
+
+.attraction-title {
+    margin-bottom: 28vh;
+}
+
+.guide-card {
+
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    height: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgb(245, 245, 245);
+    box-shadow: 0px 6px 0px rgb(210, 210, 210);
+    border-radius: 10px;
+}
+
+.guide-img {
+    width: 180px;
+    height: 250px;
+    padding: 25px;
+    border-radius: 4px;
+}
+
+.guide-text {
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(67, 67, 67)
+}
